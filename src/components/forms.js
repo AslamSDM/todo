@@ -20,8 +20,7 @@ useEffect(()=>{
     setinput('');
   };
   return (
-    <div className="todo-form" onSubmit={handlesubmit}>
-      <form className="todo-form">
+      <form className="todo-form" onSubmit={handlesubmit}>
         <input
           type="text"
           placeholder="Todo"
@@ -35,7 +34,6 @@ useEffect(()=>{
           Add
         </button>
       </form>
-    </div>
   );
 };
 
